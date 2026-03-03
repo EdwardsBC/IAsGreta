@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de IAs | Premium Tools</title>
+    <meta name="description"
+        content="Catálogo premium de herramientas de Inteligencia Artificial para potenciar tu flujo de trabajo.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <header>
+        <div class="container">
+            <h1>Catálogo de IAs</h1>
+            <p class="subtitle">Descubre las mejores herramientas de IA para tu stack tecnológico</p>
+
+            <div class="search-container">
+                <input type="text" id="searchInput"
+                    placeholder="Buscar por nombre o categoría (ej: Code, Design, Research)..." autocomplete="off">
+                <div class="search-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="category-filters" id="categoryFilters">
+                <button class="filter-btn active" data-category="all">Todas</button>
+                <button class="filter-btn" data-category="Development">Desarrollo</button>
+                <button class="filter-btn" data-category="Research">Investigación</button>
+                <button class="filter-btn" data-category="Design">Diseño</button>
+                <button class="filter-btn" data-category="Productivity">Productividad</button>
+                <button class="filter-btn" data-category="Automation">Automatización</button>
+                <button class="filter-btn" data-category="Favoritas">⭐ Favoritas</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tools-grid" id="toolsGrid">
+            <!-- Cards will be injected here by JavaScript -->
+        </div>
+
+        <div id="noResults" class="no-results hidden">
+            <p>No se encontraron herramientas que coincidan con tu búsqueda.</p>
+        </div>
+    </main>
+
+    <!-- Modal for Tool Details -->
+    <div id="toolModal" class="modal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div id="modalBody">
+                <!-- Data will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 IAs usadas para desarrollos de proyectos en GRETA</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
