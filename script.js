@@ -140,13 +140,69 @@ const tools = [
         icon: "♊"
     },
     {
-        name: "Read IA",
-        category: "Research",
-        description: "Herramienta de IA para analizar y resumir lecturas largas, artículos y documentos complejos.",
+        name: "Read AI (Meeting Copilot)",
+        category: "Productivity",
+        description: "Read es tu copiloto de IA: transforma reuniones, correos electrónicos y mensajes en resúmenes, ideas y respuestas instantáneas en todos los dispositivos, donde sea que trabajes.",
         price: "Freemium / Pro",
-        usage: "Optimizar el tiempo de lectura y comprensión de material técnico.",
-        icon: "📖",
+        usage: "Resumen automático de reuniones, correos y comunicaciones.",
+        icon: "🎙️",
         favorite: true
+    },
+    {
+        name: "v0",
+        category: "Development",
+        description: "IA conversacional para responder preguntas, redactar textos, generar y analizar código, resumir documentos y asistir en tareas complejas de lenguaje natural y automatización.",
+        price: "Freemium",
+        usage: "Generación de código de interfaces y web apps.",
+        icon: "🔮"
+    },
+    {
+        name: "Paracosm.dev",
+        category: "Development",
+        description: "Plataforma impulsada por IA para crear sitios y aplicaciones web rápidamente sin programar, generando páginas y web apps a partir de tus descripciones.",
+        price: "De pago",
+        usage: "Creación instantánea de aplicaciones y sitios web.",
+        icon: "🌐"
+    },
+    {
+        name: "Claude",
+        category: "Productivity",
+        description: "IA conversacional para responder preguntas, redactar textos, generar y analizar código, resumir documentos y asistir en tareas complejas de lenguaje natural y automatización.",
+        price: "Gratis / Pago",
+        usage: "Análisis profundo, redacción y asistencia cognitiva.",
+        icon: "🧠"
+    },
+    {
+        name: "OpenRouter",
+        category: "Development",
+        description: "Plataforma/API que unifica el acceso a múltiples modelos de IA desde una sola interfaz, facilitando probar y cambiar entre distintos proveedores.",
+        price: "Gratis y de pago",
+        usage: "Acceso unificado a múltiples LLMs mediante API.",
+        icon: "🛣️"
+    },
+    {
+        name: "Together AI",
+        category: "Development",
+        description: "Plataforma en la nube para entrenar, ajustar y ejecutar modelos de inteligencia artificial generativa usando GPUs y APIs con acceso a modelos open-source.",
+        price: "Freemium",
+        usage: "Despliegue e inferencia de modelos open-source en la nube.",
+        icon: "🤝"
+    },
+    {
+        name: "Mistral AI",
+        category: "Development",
+        description: "Plataforma de IA que desarrolla modelos de lenguaje (LLMs) para generar texto, código, imágenes y crear aplicaciones de inteligencia artificial.",
+        price: "Freemium",
+        usage: "Integración de modelos europeos eficientes de IA.",
+        icon: "🌪️"
+    },
+    {
+        name: "Groq",
+        category: "Development",
+        description: "Plataforma de infraestructura de IA que ofrece chips especializados (LPU) y servicios en la nube para ejecutar modelos extremadamente rápido.",
+        price: "Freemium",
+        usage: "Inferencia con latencia ultra baja para modelos de IA.",
+        icon: "⚡"
     }
 ];
 
